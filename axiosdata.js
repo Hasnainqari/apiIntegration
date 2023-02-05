@@ -1,5 +1,7 @@
 import axios from "axios";
 
+
+// Get Request Mehtod
 export const axiosGetRequest = async () => {
     const res = await axios({
         method: 'get',
@@ -8,6 +10,7 @@ export const axiosGetRequest = async () => {
     return res;
 };
 
+// Post Request Mehtod
 export const axiosPostRequest = async (data) => {
     const res = await axios({
         method: 'Post',
@@ -17,6 +20,8 @@ export const axiosPostRequest = async (data) => {
     return res;
 };
 
+
+// Get Put Mehtod
 export const axiosPutRequest = async (id, data) => {
     const res = await axios({
         method: 'Put',
@@ -26,6 +31,9 @@ export const axiosPutRequest = async (id, data) => {
     return res;
 };
 
+
+
+// Get Patch Mehtod
 export const axiosPatchRequest = async (id, data) => {
     const res = await axios({
         method: 'Patch',

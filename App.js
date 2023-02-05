@@ -2,12 +2,6 @@ import React, { useEffect } from "react";
 import { SafeAreaView, Button, View, Text } from "react-native";
 import { axiosGetRequest, axiosPatchRequest, axiosPostRequest, axiosPutRequest } from "./axiosdata";
 
-
-
-
-
-
-
 const App = () => {
 
   useEffect(() => {
@@ -26,7 +20,7 @@ const App = () => {
 
     // (data get ====> )
 
-    
+
     // (data post ====> )
 
     await axiosPostRequest({
